@@ -1,0 +1,24 @@
+function [x, iter] = newtonRaphson(f, df, x0, tol, maxIter)
+
+    // Método-de-Newton-Raphson
+    //
+    // f  -> função
+    // df -> derivada da função
+    // x0 -> chute inicial
+    // tol -> tolerância
+    // maxIter -> máximo de iterações
+
+    x = x0;
+
+    for iter = 1:maxIter
+
+        x = x - f(x)/df(x);
+
+        // critério de parada
+        if abs(f(x)) <= tol then
+            return;
+        end
+
+    end
+
+endfunction

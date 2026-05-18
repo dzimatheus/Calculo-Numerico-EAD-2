@@ -1,0 +1,22 @@
+clc;
+clear;
+
+exec('C:\Users\dziob\OneDrive\Área de Trabalho\Calculo Numerico\Programas\iteracaoLinear.sci');
+
+// Função
+deff('y=f(x)', 'y=sqrt(x)-exp(-x)');
+
+// Função de iteração
+deff('y=phi(x)', 'y=exp(-2*x)');
+
+// Dados
+x0 = 0.5;
+tol = 1e-3;
+maxIter = 100;
+
+// Executa
+[x, iter] = iteracaoLinear(phi, f, x0, tol, maxIter);
+
+disp("Iteração Linear");
+disp(x);
+disp(iter);

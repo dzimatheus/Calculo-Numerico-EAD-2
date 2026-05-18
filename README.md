@@ -29,6 +29,6 @@ Nos exercícios:
 |f(x_k)| \le 10^{-3}
 \]
 
-## Linguagem utilizada
+## Comentários
+Em alguns exercícios foi necessário fazer algumas modificações, mas resolvi especificar tudo no como comentário
 
-Scilab

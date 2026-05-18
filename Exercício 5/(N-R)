@@ -1,0 +1,32 @@
+clc; clear;
+exec('C:\Users\dziob\OneDrive\Área de Trabalho\Calculo Numerico\Programas\newtonRaphson.sci');
+
+// Dados
+L = 10;
+r = 1;
+V = 12.4;
+
+// Definição da função inserindo os valores diretamente para evitar erro de escopo
+// f(h) = L * [0.5*pi*r^2 - r^2*asin(h/r) - h*sqrt(r^2-h^2)] - V
+deff('y=f(h)', 'y = ' + string(L) + '*(0.5*%pi*' + string(r) + '^2 - ' + string(r) + '^2*asin(h/' + string(r) + ') - h*sqrt(' + string(r) + '^2 - h^2)) - ' + string(V));
+
+// Derivada Analítica de f(h) em relação a h:
+// f'(h) = L * [ -r^2 * (1/sqrt(1-(h/r)^2)) * (1/r) - (sqrt(r^2-h^2) + h * (1/2)*(r^2-h^2)^(-1/2) * (-2h)) ]
+// Simplificando, a derivada de f(h) para esse volume é: f'(h) = -2 * L * sqrt(r^2 - h^2)
+deff('y=df(h)', 'y = -2 * ' + string(L) + ' * sqrt(' + string(r) + '^2 - h^2)');
+
+// Dados iniciais
+x0 = 0.5; // Chute inicial entre 0 e r
+tol = 1e-5;
+maxIter = 100;
+
+// Executa
+[h_topo, iter] = newtonRaphson(f, df, x0, tol, maxIter);
+
+// Cálculo da profundidade real
+profundidade = r - h_topo;
+
+printf("\n--- RESULTADOS --- \n");
+printf("Distancia do topo (h): %.4f pe\n", h_topo);
+printf("Profundidade da agua (r - h): %.4f pe\n", profundidade);
+printf("Iteracoes: %d\n", iter);

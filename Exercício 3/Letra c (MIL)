@@ -1,0 +1,25 @@
+clc;
+clear;
+
+exec('C:\Users\dziob\OneDrive\Área de Trabalho\Calculo Numerico\Programas\iteracaoLinear.sci');
+
+// Função
+deff('y=f(x)', 'y=exp(x/2)-x^3');
+
+// Função de iteração
+deff('y=phi(x)', 'y=(exp(x/2))^(1/3)');
+
+// Dados
+x0 = 1.2;
+tol = 1e-3;
+maxIter = 100;
+
+// Executa
+[x, iter] = iteracaoLinear(phi, f, x0, tol, maxIter);
+
+disp("Iteração Linear");
+disp("Raiz aproximada:");
+disp(x);
+
+disp("Número de iterações:");
+disp(iter);

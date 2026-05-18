@@ -1,0 +1,182 @@
+## Exercício 1(a)
+
+Função:
+
+\[
+f(x)=x^3-x+1
+\]
+
+Intervalo:
+
+\[
+[-2,-1]
+\]
+
+## Resultados
+
+| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+|---|---|---|---|
+| Iteração Linear |  |  |  |
+| Newton-Raphson |  |  |  |
+
+# Exercício 1(b)
+
+Função:
+
+\[
+f(x)=x^2+3x-\cos(x)-2.45
+\]
+
+Intervalo:
+
+\[
+[0.5,1]
+\]
+
+## Resultados
+
+| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+|---|---|---|---|
+| Iteração Linear |  |  |  |
+| Newton-Raphson |  |  |  |
+
+## Exercício 3(a)
+
+Função:
+
+\[
+f(x)=\sqrt{x}-e^{-x}
+\]
+
+## Resultados
+
+| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+|---|---|---|---|
+| Iteração Linear |  |  |  |
+| Newton-Raphson |  |  |  |
+
+# Exercício 3(b)
+
+Função:
+
+\[
+f(x)=\ln(x)-x+2
+\]
+
+## Resultados
+
+| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+|---|---|---|---|
+| Iteração Linear |  |  |  |
+| Newton-Raphson |  |  |  |
+
+---
+
+# Exercício 3(c)
+
+Função:
+
+\[
+f(x)=e^{x/2}-x^3
+\]
+
+## Resultados
+
+| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+|---|---|---|---|
+| Iteração Linear |  |  |  |
+| Newton-Raphson |  |  |  |
+
+---
+
+# Exercício 3(d)
+
+Função:
+
+\[
+f(x)=\sin(x)-x^2
+\]
+
+## Resultados
+
+| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+|---|---|---|---|
+| Iteração Linear |  |  |  |
+| Newton-Raphson |  |  |  |
+
+---
+
+# Exercício 3(e)
+
+Função:
+
+\[
+f(x)=x/4-\cos(x)
+\]
+
+## Resultados
+
+| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+|---|---|---|---|
+| Iteração Linear |  |  |  |
+| Newton-Raphson |  |  |  |
+
+---
+
+# Exercício 4
+
+## Dados
+
+- Empréstimo:
+
+\[
+A=1000
+\]
+
+- Número de meses:
+
+\[
+n=24
+\]
+
+- Taxa informada:
+
+\[
+q=5\%
+\]
+
+## Resultados
+
+| Método | Taxa Mensal | Taxa Anual | Iterações |
+|---|---|---|---|
+| Newton-Raphson |  |  |  |
+
+---
+
+# Exercício 5
+
+## Dados
+
+- Comprimento:
+
+\[
+L=10
+\]
+
+- Raio:
+
+\[
+r=1
+\]
+
+- Volume:
+
+\[
+V=12.4
+\]
+
+## Resultados
+
+| Método | Profundidade Aproximada | Iterações |
+|---|---|---|
+| Newton-Raphson |  |  |

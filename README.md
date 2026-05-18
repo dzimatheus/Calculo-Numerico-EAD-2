@@ -7,23 +7,28 @@
 
 ## Estrutura
 
+```text
 calculo-numerico/
 │
-| Códigos/
-|   |
-│   |---iteracao_linear.sci
-│   |---newton_raphson.sci
+├── metodos/
+│   ├── iteracao_linear.sci
+│   └── newton_raphson.sci
 │
-| exercicio1/
-| exercicio2/
-| exercicio3/
-| exercicio4/
-| exercicio5/
+├── exercicio1/
+├── exercicio2/
+├── exercicio3/
+├── exercicio4/
+└── exercicio5/
+```
 
 ## Critério de parada
 
 Nos exercícios:
 
 \[
-|f(x_k)| \e 10^{-3}
+|f(x_k)| \le 10^{-3}
 \]
+
+## Linguagem utilizada
+
+Scilab

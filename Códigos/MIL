@@ -1,0 +1,23 @@
+function [x, iter] = iteracaoLinear(phi, f, x0, tol, maxIter)
+
+    //Método-Iteração-Linear
+    // phi  -> função de iteração
+    // f    -> função original
+    // x0   -> chute inicial
+    // tol  -> tolerância
+    // maxIter -> máximo de iterações
+
+    x = x0;
+
+    for iter = 1:maxIter
+
+        x = phi(x);
+
+        // critério de parada
+        if abs(f(x)) <= tol then
+            return;
+        end
+
+    end
+
+endfunction

@@ -54,16 +54,14 @@ Resultados
 | Iteração Linear | -3.5599030 | 100 |
 | Newton-Raphson | 1.2523554 | 3 |
 
-# Exercício 4
+Exercício 4
 Resultados
 
 | Método | Taxa Mensal | Taxa Anual | Iterações |
 |---|---|---|---|
 | Newton-Raphson | 7.5790% | 90.9485% | 13 |
 
----
-
-# Exercício 5
+Exercício 5
 Resultados
 
 | Método | Profundidade Aproximada | Distancia do topo | Iterações |

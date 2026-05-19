@@ -1,182 +1,71 @@
-## Exercício 1(a)
+Exercício 1(a)
+Resultados
 
-Função:
-
-\[
-f(x)=x^3-x+1
-\]
-
-Intervalo:
-
-\[
-[-2,-1]
-\]
-
-## Resultados
-
-| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+| Método | Raiz Aproximada | Iterações | 
 |---|---|---|---|
-| Iteração Linear |  |  |  |
-| Newton-Raphson |  |  |  |
+| Iteração Linear | -1.3249394 | 4 |
+| Newton-Raphson | -1.3247182 | 3 |
 
-# Exercício 1(b)
+Exercício 1(b)
+Resultados
 
-Função:
-
-\[
-f(x)=x^2+3x-\cos(x)-2.45
-\]
-
-Intervalo:
-
-\[
-[0.5,1]
-\]
-
-## Resultados
-
-| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+| Método | Raiz Aproximada | Iterações |
 |---|---|---|---|
-| Iteração Linear |  |  |  |
-| Newton-Raphson |  |  |  |
+| Iteração Linear | 0.8198097 | 28 |
+| Newton-Raphson | 0.8199705 | 2 |
 
-## Exercício 3(a)
+Exercício 3(a)
+Resultados
 
-Função:
-
-\[
-f(x)=\sqrt{x}-e^{-x}
-\]
-
-## Resultados
-
-| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+| Método | Raiz Aproximada | Iterações |
 |---|---|---|---|
-| Iteração Linear |  |  |  |
-| Newton-Raphson |  |  |  |
+| Iteração Linear | 0.4256119 | 29 |
+| Newton-Raphson | 0.4262983 | 2 |
 
-# Exercício 3(b)
+Exercício 3(b)
+Resultados
 
-Função:
-
-\[
-f(x)=\ln(x)-x+2
-\]
-
-## Resultados
-
-| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+| Método | Raiz Aproximada | Iterações |
 |---|---|---|---|
-| Iteração Linear |  |  |  |
-| Newton-Raphson |  |  |  |
+| Iteração Linear | 3.1452638 | 7 |
+| Newton-Raphson | 3.1463809 | 3 |
 
----
+Exercício 3(c)
+Resultados
 
-# Exercício 3(c)
-
-Função:
-
-\[
-f(x)=e^{x/2}-x^3
-\]
-
-## Resultados
-
-| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+| Método | Raiz Aproximada | Iterações |
 |---|---|---|---|
-| Iteração Linear |  |  |  |
-| Newton-Raphson |  |  |  |
+| Iteração Linear | 1.2266594 | 3 |
+| Newton-Raphson | 1.2268892 | 2 |
 
----
+Exercício 3(d)
+Resultados
 
-# Exercício 3(d)
-
-Função:
-
-\[
-f(x)=\sin(x)-x^2
-\]
-
-## Resultados
-
-| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+| Método | Raiz Aproximada | Iterações |
 |---|---|---|---|
-| Iteração Linear |  |  |  |
-| Newton-Raphson |  |  |  |
+| Iteração Linear | 0.8761997 | 6 |
+| Newton-Raphson | 0.8767534 | 3 |
 
----
+Exercício 3(e)
+Resultados
 
-# Exercício 3(e)
-
-Função:
-
-\[
-f(x)=x/4-\cos(x)
-\]
-
-## Resultados
-
-| Método | Raiz Aproximada | Iterações | Tempo de Execução |
+| Método | Raiz Aproximada | Iterações |
 |---|---|---|---|
-| Iteração Linear |  |  |  |
-| Newton-Raphson |  |  |  |
-
----
+| Iteração Linear | -3.5599030 | 100 |
+| Newton-Raphson | 1.2523554 | 3 |
 
 # Exercício 4
-
-## Dados
-
-- Empréstimo:
-
-\[
-A=1000
-\]
-
-- Número de meses:
-
-\[
-n=24
-\]
-
-- Taxa informada:
-
-\[
-q=5\%
-\]
-
-## Resultados
+Resultados
 
 | Método | Taxa Mensal | Taxa Anual | Iterações |
 |---|---|---|---|
-| Newton-Raphson |  |  |  |
+| Newton-Raphson | 7.5790% | 90.9485% | 13 |
 
 ---
 
 # Exercício 5
+Resultados
 
-## Dados
-
-- Comprimento:
-
-\[
-L=10
-\]
-
-- Raio:
-
-\[
-r=1
-\]
-
-- Volume:
-
-\[
-V=12.4
-\]
-
-## Resultados
-
-| Método | Profundidade Aproximada | Iterações |
+| Método | Profundidade Aproximada | Distancia do topo | Iterações |
 |---|---|---|
-| Newton-Raphson |  |  |
+| Newton-Raphson | 0.8338 | 0.1662 | 3 |
